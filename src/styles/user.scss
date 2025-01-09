@@ -1,0 +1,35 @@
+.user {
+  font-family: 'Arial', 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  width: max-content;
+  height: 60px;
+  padding: 10px 0 10px 30px;
+  gap: 10px;
+  border-radius: 2px;
+
+  .userContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    .userInitials {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(22, 38, 156);
+      color: #ffffff;
+      border-radius: 2px;
+    }
+    .userName {
+      font-size: 1rem;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+  }
+}

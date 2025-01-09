@@ -1,0 +1,20 @@
+.header {
+    
+  
+    
+    .navbar {
+      background-color: #0034b7;
+      padding: 0.5em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .burger {
+       align-items: center; 
+      }
+      .searchBtn {
+        display: flex;
+        align-items: center;
+    }
+  }
+}
+      
